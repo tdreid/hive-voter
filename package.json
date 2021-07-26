@@ -9,6 +9,7 @@
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
-    "@hiveio/dhive": "^0.14.16"
+    "@hiveio/dhive": "^0.14.16",
+    "config": "^3.3.6"
   }
 }
