@@ -1,0 +1,10 @@
+{
+    "hiveNode": "https://api.hive.blog",
+    "bloggers": "",
+    "maxPostsPerBlogger": 10,
+    "curator": "",
+    "voteWeight": 100,
+    "postingKey": "",
+    "schedule": "* 10 0,3,6,9,12,15,18 * * *",
+    "logLevel": "debug"
+}
