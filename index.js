@@ -63,6 +63,7 @@ schedule.scheduleJob(config.get('schedule'), () => {
                 permlink: post.permlink,
                 weight: config.get('voteWeight'),
             };
+            logger.info(vote);
             client.broadcast
                 .vote(vote, key)
                 .then((result) => logger.info('success:', result))
