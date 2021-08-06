@@ -1,0 +1,10 @@
+{
+    "hiveNode": "HIVE_NODE",
+    "bloggers": "BLOGGERS",
+    "maxPostsPerBlogger": "MAX_POSTS_PER_BLOGGER",
+    "curator": "CURATOR",
+    "voteWeight": "VOTE_WEIGHT",
+    "postingKey": "POSTING_KEY",
+    "schedule": "SCHEDULE",
+    "logLevel": "LOG_LEVEL"
+}
