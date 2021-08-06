@@ -5,6 +5,6 @@
     "curator": "",
     "voteWeight": 8750,
     "postingKey": "",
-    "schedule": "48 3,5,7,9,11,13,15,17,19,21,23 * * *",
+    "schedule": "* /2 * * *",
     "logLevel": "debug"
 }
