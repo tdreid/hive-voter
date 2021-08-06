@@ -5,6 +5,7 @@ const { Client, PrivateKey } = require('@hiveio/dhive');
 const log4js = require('log4js');
 const logger = log4js.getLogger();
 logger.level = config.get('logLevel');
+logger.debug(config);
 
 const client = new Client(config.get('hiveNode'));
 const bloggers = config.get('bloggers').split(',');
